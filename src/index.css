@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Images and captions */
+figure {
+	margin: 20px 0;
+	text-align: center;
+}
+
+figure img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+figcaption {
+	margin-top: 10px;
+	font-style: italic;
+	color: #555;
+}
+
+/* Headings */
+h3 {
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 5px;
+	color: #333;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+	color: #444;
+	margin: 10px 0;
+}
+
+/* Lists */
+ul {
+	list-style-type: disc;
+	margin: 10px 0 10px 20px;
+}
+
+li {
+	margin: 5px 0;
+}
+
+/* Links */
+a {
+	color: #007acc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Specific theme highlights */
+.theme-highlight {
+	background-color: #f4f4f4;
+	border-left: 5px solid #007acc;
+	padding: 10px;
+	margin: 20px 0;
+}
